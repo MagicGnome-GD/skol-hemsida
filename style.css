@@ -1,0 +1,219 @@
+body{
+    margin: 0 auto;
+
+    background-image: url("Images/MainBGImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3440px;
+    width: 1920px;
+}
+
+.nameplate{
+    position: absolute;
+    top: 700px;
+    left: 800px;
+    z-index: 1;
+}
+
+.ringklocka{
+    position: absolute;
+    top: 650px;
+    left: 1380px;
+    z-index: 1;
+}
+
+.book{
+    position: absolute;
+    top: 650px;
+    left: 400px;
+    z-index: 1;
+}
+
+.lampknapp{
+    position: absolute;
+    top: 525px;
+    left: 1750px;
+    z-index: 10;
+}
+
+.emptyButton1{
+    position: absolute;
+    top: 1925px;
+    left: 450px;
+    z-index: 2;
+    width: 825px;
+    height: 275px;
+}
+
+.xButton1{
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 1725px;
+    z-index: 4;
+    display: none;
+}
+
+.projectstable{
+    position: absolute;
+    display: none;
+    z-index: 4;
+    left: -437px;
+    top: -735px;
+}
+
+#randImg1{
+    position: absolute;
+    top: 409px;
+    left: 509px;
+    z-index: 2;
+    width: 182px;
+    height: 182px;
+}
+
+#randImg2{
+    position: absolute;
+    top: 409px;
+    left: 859px;
+    z-index: 2;
+    width: 182px;
+    height: 182px;
+}
+
+#randImg3{
+    position: absolute;
+    top: 409px;
+    left: 1209px;
+    z-index: 2;
+    width: 182px;
+    height: 182px;
+}
+
+#randImg4{
+    position: absolute;
+    top: 1325px;
+    left: 625px;
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+}
+
+#randImg5{
+    position: absolute;
+    top: 2422px;
+    left: 525px;
+    z-index: 2;
+    width: 950px;
+    height: 527px;
+}
+
+.tavla1{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    z-index: 1;
+}
+
+.tavla2{
+    position: absolute;
+    top: 400px;
+    left: 850px;
+    z-index: 1;
+}
+
+.tavla3{
+    position: absolute;
+    top: 400px;
+    left: 1200px;
+    z-index: 1;
+}
+
+.tavla4{
+    position: absolute;
+    top: 1300px;
+    left: 600px;
+    width: 550px;
+    z-index: 1;
+}
+
+.langtavla1{
+    position: absolute;
+    top: 2400px;
+    left: 500px;
+    width: 1000px;
+    z-index: 1;
+}
+
+.cards{
+    position: absolute;
+    width: 189px;
+    height: 264px;
+    border-radius: 19px;
+    border: 3px solid #000;
+    background: #ffecc9;
+    z-index: 99;
+    display: none;
+    top: 1900px;
+}
+
+#card1{
+    left: 640px;
+    rotate: -3deg;
+}
+
+#card2{
+    left: 870px;
+}
+
+#card3{
+    left: 1100px;
+    rotate: 3deg;
+}
+
+#cardImage1{
+    position: inherit;
+    width: 189px;
+    height: 264px;
+    border-radius: 15px;
+}
+
+#cardImage2{
+    position: inherit;
+    width: 189px;
+    height: 264px;
+    border-radius: 15px;
+}
+
+#cardImage3{
+    position: inherit;
+    width: 189px;
+    height: 264px;
+    border-radius: 15px;
+}
+
+.AboutMeSign{
+    position: absolute;
+    top: 1980px;
+    left: 775px;
+    z-index: 2;
+    width: 200px;
+}
+
+.cardText{
+    position: absolute;
+    top: 1580px;
+    left: 690px;
+    z-index: 5;
+    width: 450px;
+    height: 250px;
+    display: none;
+}
+
+.cardText h1,
+.cardText h2{
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: red; /* Change 'red' to the color you want */
+    text-decoration: none; /* Remove the default underline if you don't want it */
+}
