@@ -22,11 +22,39 @@ body{
     z-index: 1;
 }
 
-.book{
+.bookDevComment{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+}
+
+#book-cover{
     position: absolute;
     top: 650px;
     left: 400px;
     z-index: 1;
+}
+
+#book-content{
+    position: inherit;
+    background-image: url('Images/InsideBook.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 860px;
+    display: none;
+}
+
+#book{
+    position: absolute;
+    z-index: 5;
+    top: 200px;
+    left: 500px;
+}
+
+#comment-form{
+    position: absolute;
+    left: 220px;
 }
 
 .lampknapp{
@@ -49,6 +77,14 @@ body{
     position: absolute;
     margin-top: 1300px;
     margin-left: 1725px;
+    z-index: 4;
+    display: none;
+}
+
+.xButton2{
+    position: absolute;
+    top: 650px;
+    left: 400px;
     z-index: 4;
     display: none;
 }
@@ -153,6 +189,8 @@ body{
     z-index: 99;
     display: none;
     top: 1900px;
+    transition: top 300ms;
+    transition: left 300ms;
 }
 
 #card1{
@@ -216,4 +254,52 @@ body{
 a {
     color: red; /* Change 'red' to the color you want */
     text-decoration: none; /* Remove the default underline if you don't want it */
+}
+
+#socials{
+    position: absolute;
+    width: 150px;
+    height: 500px;
+    top: 690px;
+    left: 1250px;
+    background-image: url('Images/SocialsScroll.png');
+    display: none;
+}
+
+.igLogo{
+    position: absolute;
+    width: 60px;
+    top: 70px;
+    left: 60px;
+}
+
+.brawlLogo{
+    position: absolute;
+    width: 60px;
+    top: 150px;
+    left: 60px;
+}
+
+.valLogo{
+    position: absolute;
+    width: 100px;
+    top: 220px;
+    left: 40px;
+}
+
+.emptyButton1:hover,
+.cards:hover,
+.xButton1:hover,
+#book-cover:hover,
+.ringklocka:hover{
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+}
+
+.head{
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    left: 540px;
+    top: 100px;
+    margin: 0 auto;
 }

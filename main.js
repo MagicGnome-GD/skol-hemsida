@@ -30,6 +30,20 @@ function closeProjects() {
     projectsVisible = false;
 }
 
+let bookVisible = false;
+
+function toggleBook(){
+    const bookContent = document.querySelector('#book-content');
+
+    if (!bookVisible) {
+        bookContent.style.display = "block";
+        bookVisible = true;
+    } else{
+        bookContent.style.display = "none";
+        bookVisible = false;
+    }
+}
+
 const images = ["Images/FunnyImages/angrycat.gif",
 "Images/FunnyImages/aprun.gif",
 "Images/FunnyImages/jam.gif",
@@ -213,3 +227,18 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 });
+
+let socialsVisible = false;
+
+function showSocials(){
+    const socials = document.querySelector('#socials');
+
+    if (!socialsVisible) {
+        socials.style.display = "block";
+        socialsVisible = true;
+    } else{
+        socials
+        .style.display = "none";
+        socialsVisible = false;
+    }
+}

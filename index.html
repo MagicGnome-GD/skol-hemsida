@@ -6,9 +6,8 @@
   <head><title>Lucas Lange</title></head>
   <body>
     <div>
+        <h1 class="head">LUCAS LANGE</h1>
         <img class="nameplate" src="Images/nameplate.png">
-        <img class="ringklocka" src="Images/ringklocka.png">
-        <img class="book" src="Images/book.png">
         <img class="tavla1" src="Images/tavla.jpg">
         <img class="tavla2" src="Images/tavla.jpg">
         <img class="tavla3" src="Images/tavla.jpg">
@@ -38,6 +37,36 @@
           <img class="randImg" id="cardImage3" src="">
         </div>
         <img onclick="closeProjects()" class="xButton1" src="Images/XButton.png">
+
+        <img onclick="toggleBook()" id="book-cover" src="Images/book.png">
+
+        <div id="book">
+          <div id="book-content">
+            <form id="comment-form">
+              <input type="text" id="comment-input" placeholder="Write a comment (max 50 characters)">
+              <input type="text" id="signature-input" placeholder="Your signature (max 10 characters)">
+            </form>
+            <div id="comments">
+              <!-- Existing comments will be displayed here -->
+              <p class="bookDevComment">You can't write a comment...yet - L.L</p>
+
+            </div>
+          </div>
+        </div>
+
+        <img onclick="showSocials()" class="ringklocka" src="Images/ringklocka.png">
+        <div id="socials">
+          <a href="https://tracker.gg/brawlhalla/profile/105278794-magicgnome/overview"  target="_blank">
+            <img class="brawlLogo" src="https://pbs.twimg.com/profile_images/1706355035632746496/5x1zTMDe_400x400.jpg">
+          </a>
+          <a href="https://tracker.gg/valorant/profile/riot/MaGic%23SWE/overview"  target="_blank">
+            <img class="valLogo" src="https://preview.redd.it/nts5cr5g7od61.png?width=1182&format=png&auto=webp&s=bf4b54e0477a6a8c802b560a12be66e954bcf396">
+          </a>
+          <a href="http://instagram.com/_u/lucas.l.lange/"  target="_blank">
+            <img class="igLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png">
+          </a>
+        </div>
+
     </div>
   </body>
 </html>
